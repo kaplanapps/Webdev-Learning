@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+</style>
+<title>HTML Learning Page</title>
+</head>
+<body>
+
+<h1>HTML Learning Page</h1>
+
+<h2>display: grid</h2>
+<p>Use display: grid; to make a block-level grid container:</p>
+
+   <a href="https://www.w3schools.com/css/css_grid.asp" target="blank">
+        Link to the W3Schools page for Grids 
+    </a>
+    <br><br>
+<h2>Other code hosting platforms</h2>
+<ul>
+  <li>
+       <a href="https://www.google.com/search?q=code+hosting+platform&rlz=1C5CHFA_enUS882US882&oq=coding+host&gs_lcrp=EgZjaHJvbWUqCAgDEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQkxNDQ5NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+        " target="blank">
+        Google search for hosting platforms 
+    </a>
+  </li>
+  <li>
+       <a href="https://github.com/kaplanapps
+        " target="blank">
+        My Github repo 
+    </a>
+  </li>
+
+</ul>
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>  
+</div>
+
+<br><br>
+
+<h2>A list of a few important links</h2>
+<ul>
+  <li>
+    <a href="https://www.youtube.com/watch?v=HD13eq_Pmp8&t=144s" target="blank">
+        Bros youtube video 
+    </a>
+  </li>
+  <li>
+    <a href="https://kaplanapps.w3spaces.com/Learning1.html" target="blank">
+        Public link to this page 
+    </a>
+  </li>
+  <li>
+      <a href="https://www.google.com" target="blank">    
+      Example of using an anchor tag to a website
+      </a>
+  </li> 
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Shrek_%28character%29">     
+    <img src="/Images/Shrek.png" alt="this is a shrek image" title="Shrek"> 
+    </a>
+  </li>
+  <li>
+       <a href="https://www.google.com/search?q=code+hosting+platform&rlz=1C5CHFA_enUS882US882&oq=coding+host&gs_lcrp=EgZjaHJvbWUqCAgDEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQkxNDQ5NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+        " target="blank">
+        Google search for hosting platforms 
+    </a>
+  </li>
+
+</ul>  
+
+
+<p>Example of using a paragraph tag</p>
+
+<a href="https://www.google.com" target="blank">
+    Example of using an anchor tag to a website
+</a>
+<br>
+<br>
+<a href="page2.html" target="blank">
+    Example of an anchor to another page in this site
+</a>
+<br>
+<br>
+
+<br><br>
+
+<p>This is an example of an audio controls, but audio files 
+are not supported in the el cheapo version of thie software.</p>
+<audio controls autoplay muted loop>
+    <source src="02 Track 2.mp3">
+    <source src="04 Track 4.mp3">
+</audio>
+
+</body>
+
+
+</html>
